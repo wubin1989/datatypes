@@ -5,12 +5,12 @@ import (
 	"os"
 	"path/filepath"
 
-	"gorm.io/driver/mysql"
-	"gorm.io/driver/postgres"
-	"gorm.io/driver/sqlite"
-	"gorm.io/driver/sqlserver"
-	"gorm.io/gorm"
-	"gorm.io/gorm/logger"
+	"github.com/wubin1989/gorm"
+	"github.com/wubin1989/gorm/logger"
+	"github.com/wubin1989/mysql"
+	"github.com/wubin1989/postgres"
+	"github.com/wubin1989/sqlite"
+	"github.com/wubin1989/sqlserver"
 )
 
 var DB *gorm.DB

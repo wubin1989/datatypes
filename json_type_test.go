@@ -4,9 +4,8 @@ import (
 	"database/sql/driver"
 	"testing"
 
-	"gorm.io/datatypes"
-	"gorm.io/gorm"
-	. "gorm.io/gorm/utils/tests"
+	"github.com/wubin1989/datatypes"
+	"github.com/wubin1989/gorm"
 )
 
 var _ driver.Valuer = &datatypes.JSONType[[]int]{}

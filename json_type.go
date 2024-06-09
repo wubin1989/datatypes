@@ -8,10 +8,10 @@ import (
 	"fmt"
 	"strings"
 
-	"gorm.io/driver/mysql"
-	"gorm.io/gorm"
-	"gorm.io/gorm/clause"
-	"gorm.io/gorm/schema"
+	"github.com/wubin1989/gorm"
+	"github.com/wubin1989/gorm/clause"
+	"github.com/wubin1989/gorm/schema"
+	"github.com/wubin1989/mysql"
 )
 
 // JSONType give a generic data type for json encoded data.

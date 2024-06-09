@@ -8,8 +8,8 @@ import (
 	"time"
 
 	"github.com/jinzhu/now"
-	"gorm.io/datatypes"
-	. "gorm.io/gorm/utils/tests"
+	"github.com/wubin1989/datatypes"
+	. "github.com/wubin1989/gorm/utils/tests"
 )
 
 func TestDate(t *testing.T) {

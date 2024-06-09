@@ -1,14 +1,14 @@
-module gorm.io/datatypes
+module github.com/wubin1989/datatypes
 
 go 1.18
 
 require (
 	github.com/jinzhu/now v1.1.5
-	gorm.io/driver/mysql v1.5.2
-	gorm.io/driver/postgres v1.5.0
-	gorm.io/driver/sqlite v1.4.3
-	gorm.io/driver/sqlserver v1.4.1
-	gorm.io/gorm v1.25.5
+	github.com/wubin1989/gorm v0.0.1
+	github.com/wubin1989/mysql v0.0.0-20240609154238-4349e547ada1
+	github.com/wubin1989/postgres v0.0.1
+	github.com/wubin1989/sqlite v0.0.2-0.20240609153504-8cc2b2e229d3
+	github.com/wubin1989/sqlserver v0.0.0-20240609154458-d7aac7b6168f
 )
 
 require (
@@ -17,10 +17,12 @@ require (
 	github.com/golang-sql/sqlexp v0.1.0 // indirect
 	github.com/jackc/pgpassfile v1.0.0 // indirect
 	github.com/jackc/pgservicefile v0.0.0-20221227161230-091c0ba34f0a // indirect
-	github.com/jackc/pgx/v5 v5.3.0 // indirect
+	github.com/jackc/pgx/v5 v5.5.5 // indirect
+	github.com/jackc/puddle/v2 v2.2.1 // indirect
 	github.com/jinzhu/inflection v1.0.0 // indirect
-	github.com/mattn/go-sqlite3 v1.14.15 // indirect
-	github.com/microsoft/go-mssqldb v0.17.0 // indirect
-	golang.org/x/crypto v0.6.0 // indirect
-	golang.org/x/text v0.7.0 // indirect
+	github.com/mattn/go-sqlite3 v1.14.17 // indirect
+	github.com/microsoft/go-mssqldb v1.7.0 // indirect
+	golang.org/x/crypto v0.18.0 // indirect
+	golang.org/x/sync v0.1.0 // indirect
+	golang.org/x/text v0.14.0 // indirect
 )

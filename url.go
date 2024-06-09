@@ -8,8 +8,8 @@ import (
 	"net/url"
 	"strings"
 
-	"gorm.io/gorm"
-	"gorm.io/gorm/schema"
+	"github.com/wubin1989/gorm"
+	"github.com/wubin1989/gorm/schema"
 )
 
 type URL url.URL

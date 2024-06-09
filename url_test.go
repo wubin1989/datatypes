@@ -4,8 +4,7 @@ import (
 	"net/url"
 	"testing"
 
-	"gorm.io/datatypes"
-	. "gorm.io/gorm/utils/tests"
+	"github.com/wubin1989/datatypes"
 )
 
 func TestURL(t *testing.T) {

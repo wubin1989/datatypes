@@ -5,7 +5,7 @@
 sqlite, mysql, postgres supported
 
 ```go
-import "gorm.io/datatypes"
+import "github.com/wubin1989/datatypes"
 
 type UserWithJSON struct {
 	gorm.Model
@@ -51,7 +51,7 @@ NOTE: SQlite need to build with `json1` tag, e.g: `go build --tags json1`, refer
 ## Date
 
 ```go
-import "gorm.io/datatypes"
+import "github.com/wubin1989/datatypes"
 
 type UserWithDate struct {
 	gorm.Model
@@ -74,7 +74,7 @@ MySQL, PostgreSQL, SQLite, SQLServer are supported.
 Time with nanoseconds is supported for some databases which support for time with fractional second scale.
 
 ```go
-import "gorm.io/datatypes"
+import "github.com/wubin1989/datatypes"
 
 type UserWithTime struct {
     gorm.Model
@@ -99,8 +99,8 @@ sqlite, mysql, postgres supported
 
 ```go
 import (
-	"gorm.io/datatypes"
-	"gorm.io/gorm"
+	"github.com/wubin1989/datatypes"
+	"github.com/wubin1989/gorm"
 )
 
 type UserWithJSON struct {
@@ -161,7 +161,7 @@ DB.Model(&UserWithJSON{}).Where("name = ?", "json-1").UpdateColumn("attributes",
 sqlite, mysql, postgres supported
 
 ```go
-import "gorm.io/datatypes"
+import "github.com/wubin1989/datatypes"
 
 type Attribute struct {
 	Sex   int
@@ -215,7 +215,7 @@ NOTE: it's not support json query
 sqlite, mysql, postgres supported
 
 ```go
-import "gorm.io/datatypes"
+import "github.com/wubin1989/datatypes"
 
 type Tag struct {
 	Name  string
@@ -257,7 +257,7 @@ NOTE: it's not support json query and `db.Pluck` method
 mysql supported
 
 ```go
-import "gorm.io/datatypes"
+import "github.com/wubin1989/datatypes"
 
 type Param struct {
     ID          int

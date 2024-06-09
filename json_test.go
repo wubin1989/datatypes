@@ -6,10 +6,9 @@ import (
 	"strings"
 	"testing"
 
-	"gorm.io/datatypes"
-	"gorm.io/driver/mysql"
-	"gorm.io/gorm"
-	. "gorm.io/gorm/utils/tests"
+	"github.com/wubin1989/datatypes"
+	"github.com/wubin1989/gorm"
+	"github.com/wubin1989/mysql"
 )
 
 var _ driver.Valuer = &datatypes.JSON{}
