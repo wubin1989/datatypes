@@ -4,11 +4,11 @@ go 1.18
 
 require (
 	github.com/jinzhu/now v1.1.5
-	github.com/wubin1989/gorm v0.0.1
-	github.com/wubin1989/mysql v0.0.0-20240609154238-4349e547ada1
-	github.com/wubin1989/postgres v0.0.1
-	github.com/wubin1989/sqlite v0.0.2-0.20240609153504-8cc2b2e229d3
-	github.com/wubin1989/sqlserver v0.0.0-20240609154458-d7aac7b6168f
+	github.com/wubin1989/gorm v0.0.3
+	github.com/wubin1989/mysql v0.0.2-0.20240611142742-11722462c1f3
+	github.com/wubin1989/postgres v0.0.2-0.20240611142853-f89b1682d931
+	github.com/wubin1989/sqlite v0.0.3-0.20240611143051-c35482f79d92
+	github.com/wubin1989/sqlserver v0.0.2-0.20240611142955-b9bee6e252c3
 )
 
 require (
